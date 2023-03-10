@@ -89,9 +89,6 @@ def main(
         for result in results:
             print(result)
             print("\n==================================\n")
-    generator.generate(
-        prompts, max_gen_len=256, temperature=temperature, top_p=top_p
-    )
 
 
 if __name__ == "__main__":
